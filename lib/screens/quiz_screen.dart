@@ -1,9 +1,9 @@
-import 'package:bonfire_app/screens/bottom_bar.dart';
-import 'package:bonfire_app/screens/header.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import '../screens/header.dart';
+import '../screens/bottom_bar.dart';
 import '../providers/main_providers.dart';
 
 class QuizScreen extends ConsumerWidget {

@@ -1,8 +1,9 @@
-import 'package:bonfire_app/colors.dart';
-import 'package:bonfire_app/screens/quiz_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '/theme/colors.dart';
+import '/screens/quiz_screen.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
