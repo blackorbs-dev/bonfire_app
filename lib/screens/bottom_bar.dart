@@ -7,7 +7,7 @@ class BottomBar extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 44,
+        height: 56,
         color: Theme.of(context).colorScheme.tertiaryContainer,
         child: Row(
           children: [
@@ -59,7 +59,7 @@ class NavItemWithCount extends StatelessWidget {
                             color: theme.colorScheme.tertiaryContainer
                         )
                     ),
-                    child: Text("$count", style: TextStyle(fontSize: 7, color: theme.colorScheme.tertiaryContainer)),
+                    child: Text("$count", style: TextStyle(fontSize: 7, fontWeight: FontWeight.bold, color: theme.colorScheme.tertiaryContainer)),
                   )
               )
             ]

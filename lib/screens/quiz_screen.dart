@@ -157,7 +157,12 @@ class QuizScreen extends ConsumerWidget {
                             )
                           ]
                       ),
-                      loading: () => const Center(child: CircularProgressIndicator()),
+                      loading: () => Container(
+                          constraints: const BoxConstraints(minHeight: 400),
+                          child: const Center(
+                              child: CircularProgressIndicator()
+                          )
+                      ),
                       error: (err, _) => Text('Error: $err'),
                     )
                 )
