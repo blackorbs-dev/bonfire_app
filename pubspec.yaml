@@ -1,0 +1,44 @@
+name: bonfire_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  flutter_svg: ^2.1.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  #--------------- LOCAL ASSETS ------------------#
+  assets:
+    - assets/icons/
+    - assets/images/
+
+ #--------------- LOCAL FONTS ------------------#
+  fonts:
+    - family: Proxima
+      fonts:
+        - asset: assets/fonts/proxima_nova_regular.otf
+          weight: 400
+        - asset: assets/fonts/proxima_nova_semibold.otf
+          weight: 600
+        - asset: assets/fonts/proxima_nova_bold.otf
+          weight: 700
